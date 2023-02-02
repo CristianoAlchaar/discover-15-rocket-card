@@ -21,7 +21,6 @@ async function getProfileData(urlProfile) {
 
 async function loadProfileDataOnScreen(urlProfile) {
     const profileData = await getProfileData(urlProfile);
-    console.log(profileData);
     profileName.innerHTML = profileData.login;
     profileImg.src = profileData.avatar_url;
     profileFollowers.innerHTML = profileData.followers + " seguidores";
@@ -45,7 +44,6 @@ function changeBackground(){
     let randomColor = generateRandomColor();
     cardProfile.style.borderColor = randomColor;
 }
-
 
 loadProfileDataOnScreen(URL);
 
