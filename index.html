@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>RocketCard</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Compartilhe seu #rocketcard</h1>
+    </header>
+
+    <main>
+        <div id="card">
+            <header>
+                <i><img src="./assets/logo.svg"></i> 
+                <h2>User</h2>
+            </header>
+
+            <img id="profile-img" src="">
+
+            <div id="profile-info">
+                <ul>
+                    <li><i><img src="./assets/followers.svg"></i><span id="followers">xxx followers</span></li>
+                    <li><i><img src="./assets/following.svg"></i><span id="following">xxx following</span></li>
+                    <li><i><img src="./assets/repository.svg"></i><span id="repositories">xxx repositories</span></li>
+                    <li><i><img src="./assets/company.svg"></i><span id="company">@company</span></li>
+                    <li><i><img src="./assets/location.svg"></i><span id="location">location</span></li>
+                </ul>
+            </div>
+
+            <footer>
+                <i><img src="./assets/logo.svg"></i>
+                <h2>ROCKETCARD</h2>
+            </footer>
+        </div>
+
+        <div id="button-area">
+            <h1>Customizar Rocketcard</h1>
+            <button type="button" id="btn-generate-background">Gerar Background</button>
+        </div>
+        <script type="text/javascript" src="./src/script.js"></script>
+    </main>
+</body>
+</html>
